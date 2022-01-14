@@ -1,0 +1,45 @@
+
+.main-btn{
+  border-radius: 30px;
+  color: white;
+  padding: 15px 35px;
+  text-decoration: none;
+  display: block;
+  width: fit-content;
+  margin: auto;
+  background: linear-gradient(to left, $first-color, $second-color);
+  border: none;
+  font-size: 18px;
+  box-shadow: 3px 3px 10px rgba(100,100,100,0.25);
+
+  &:hover{
+
+    box-shadow: 3px 3px 10px rgba(100,100,100,0.75);
+    filter: brightness(1.1);
+
+  }
+
+}
+
+.wishlist{
+
+  background: none;
+  border: none;
+  cursor: pointer;
+
+  i{
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  &:hover i{
+    font-weight: 600;
+    background-image: linear-gradient(to left, $first-color, $second-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+
+
+}

@@ -1,0 +1,35 @@
+
+
+.footer{
+
+  background: #454545;
+  padding: 20px;
+  color: #ffffff;
+
+  .footer-title{
+    font-family: Shrikhand, cursive;
+    font-size: 25px;
+  }
+
+  .footer-nav{
+
+    ul{
+      margin: 0;
+      list-style: none;
+      padding: inherit;
+
+      li{
+        line-height: 1.8;
+
+        i{
+          margin-right: 5px;
+        }
+
+      }
+
+    }
+
+  }
+
+
+}
